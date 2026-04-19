@@ -1,0 +1,52 @@
+# Local notes / scratch docs (keep out of git)
+SESSION_NOTES.md
+SYNC_FIXES_SUMMARY.md
+LOCAL_*.md
+*_LOCAL.md
+
+# py2app build artifacts
+dist/
+build/
+.build-venv/
+
+# Generated icon assets (source is icon.iconset/ + Notion Bridge.jpeg)
+AppIcon.iconset/
+AppIcon.icns
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+
+# Node / frontend build
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/node_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Sync database (stored in ~/.notion-bridge/, not the repo)
+*.db
+*.db-shm
+*.db-wal
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
